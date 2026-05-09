@@ -1,0 +1,79 @@
+{
+    "live_news_analysis": [
+        {
+            "source": "NDTV",
+            "title": "What Happens If Iran War Actually Ends In 2 Weeks: The Challenges Ahead",
+            "prediction": {
+                "label": "REAL",
+                "confidence": 0.5,
+                "highlights": []
+            }
+        },
+        {
+            "source": "The Hindu",
+            "title": "Iran Guards say will target U.S. tech firms if more leaders killed",
+            "prediction": {
+                "label": "REAL",
+                "confidence": 0.5,
+                "highlights": []
+            }
+        },
+        {
+            "source": "Conspiracy Daily",
+            "title": "ALIENS INVADE NEW YORK! SHOCKING FOOTAGE UNCOVERED BY ANONYMOUS SOURCE! BREAKING: SPACE INVADERS ARE HERE TO STEAL OUR SECRETS! MIRACLE SURVIVAL REPORTED!",
+            "prediction": {
+                "label": "FAKE",
+                "confidence": 0.95,
+                "highlights": [
+                    "breaking",
+                    "shocking",
+                    "miracle",
+                    "uncovered",
+                    "secret",
+                    "aliens",
+                    "anonymous source",
+                    "ALIENS",
+                    "INVADE",
+                    "SHOCKING",
+                    "FOOTAGE",
+                    "UNCOVERED",
+                    "ANONYMOUS",
+                    "SOURCE!",
+                    "BREAKING:",
+                    "INVADERS",
+                    "SECRETS!",
+                    "MIRACLE",
+                    "SURVIVAL",
+                    "REPORTED!"
+                ]
+            }
+        },
+        {
+            "source": "Bar and Bench",
+            "title": "Transgender Amendment Bill gets Presidential assent amid protests",
+            "prediction": {
+                "label": "REAL",
+                "confidence": 0.5,
+                "highlights": []
+            }
+        },
+        {
+            "source": "The Hindu",
+            "title": "Assembly Election LIVE: Will implement Uniform Civil Code, safeguard tribals to protect Assam\u2019s identity, says PM Modi",
+            "prediction": {
+                "label": "REAL",
+                "confidence": 0.5,
+                "highlights": []
+            }
+        },
+        {
+            "source": "The Hindu",
+            "title": "Census 2027 kicks off: How to do self-enumeration: step-by-step guide",
+            "prediction": {
+                "label": "REAL",
+                "confidence": 0.5,
+                "highlights": []
+            }
+        }
+    ]
+}

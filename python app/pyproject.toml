@@ -1,0 +1,28 @@
+[project]
+name = "fake-news-guard"
+version = "0.1.0"
+description = "AI Powered Fake News Detection System"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "pandas",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "beautifulsoup4",
+    "requests",
+    "googlenews",
+    "python-multipart",
+    "feedparser"
+]
+
+[project.scripts]
+app = "app:app"
+
+[tool.setuptools]
+py-modules = ["app", "web_server"]
+
+[tool.vercel]
+entrypoint = "api/index.py"

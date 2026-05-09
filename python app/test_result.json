@@ -1,0 +1,16 @@
+{
+    "real_news": {
+        "label": "FAKE",
+        "confidence": 0.9988456964492798,
+        "real_percentage": 0.12,
+        "fake_percentage": 99.88,
+        "highlights": []
+    },
+    "fake_news": {
+        "label": "FAKE",
+        "confidence": 0.998856782913208,
+        "real_percentage": 0.11,
+        "fake_percentage": 99.89,
+        "highlights": []
+    }
+}

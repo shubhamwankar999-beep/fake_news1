@@ -1,0 +1,185 @@
+[
+    {
+        "platform": "Google News",
+        "title": "Raghav Chadha says \u2018silenced, not defeated\u2019 in 1st reaction after AAP's Rajya Sabha move",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMUc3U1BrTHpyVWdOaWJ3MnNPdjhLaDh6X2xzSlFzUFQyZmNad0NEMGxUeGp3akxjeDNyV2ZidU1MV2RTZzZWYV91ZHhBaUF4ZzRVbTZXYXVDQVdRWjJWVG9PWWdCRldtc0dERlJTeU82eF9WSGJEc2xuOGFRRC1MaFlTcXlBbG4yVzMtbEkzNEVmLVIwT2laNkhjOG1RVGVjbWNOX0R6TTI3WDRyWW1OTVdEbXdmb2NKTWtXb0s0UE91ZFpzQjBZWlEtcVNBQTNYZTM5QUJWcHc2YjJfRGNrQ1pZWEZtd2pJSXo3VlZ0VUNWcXdFejRELUg1bjlNUQ?oc=5",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "Google News",
+        "title": "Donald Trump announces destruction of Iran's tallest bridge amid escalating Iran-Israel US war",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjFZUWdfUGtOOVo0R0lCSTEyTEdKUmFXekxEU19MRDMxZHpUUU9PNno1aVFya1ZaYXItWVEwdmpLdlFCaDJfaDdUaWxQa3ZueEtKcUY3MnFabmhYa0xvQ1ZkVXlWSk5IbF9HN21aQjRiSUJNZXJBY09tSzFEMHVtQnRIc1ZGWHpTQWxiVWw3aWh1TVY4MC1iQTd5ZzRTYVg5NVlBdUd0dkFUdEt1dWlZMkNHNUtXY3NFMjFsSdIBwwFBVV95cUxPVmFGRFdCTHZqSXkzenY1ZHNSWFNNM2xuVEpzV3phSUtkWFRuNVlIUjRlcDZMVVVMSGtKR3VERnY1WEFjbkZLVzNFOGFObU4wOXJVWWdmbnZ3NktfcF9feG51LUU5alhaMmpPYTJkTzRCdGM5emo2VGZuNEVVVXBwRzRGUC1rdkgwTV81M1dUeWJUUmtlWkY3YXhBWkQ2OWYycGFsYWVVci1NV19GSTBvLVFac0t1S1pGZ08xLWlUYzdoZUk?oc=5",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "Google News",
+        "title": "Tanker Carrying Iranian Crude Shifts Course from India to China",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUtuMHVsZlFXUUZlU1pUbUlsSFFHVlZfek5QR3E3X1QxQzk5NGRxV09adUFEWldON3VsS0pFTGlLU2ZJQm0tSFdCNnk5RUxRanhwaG9iWmV1VTRuYTM5bFNvalFaUXpHT1NLRjkyN3dPTHo3NkJLRnNLaTVjUGJnM0pYVVNfVkNKV3Q3dGowekVVZUdnU2NwOG1tbExneTVIdHJHTGtQNVIySktXbGZUblY4ZG0?oc=5",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "BBC News",
+        "title": "Artemis II leaves Earth's orbit on track for far side of the Moon",
+        "link": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "BBC News",
+        "title": "'Trust us, you look amazing': Artemis II astronauts speak from space",
+        "link": "https://www.bbc.com/news/videos/crl10127elgo?at_medium=RSS&at_campaign=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "63.76%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "BBC News",
+        "title": "M&S boss calls for more action on crime and abuse of staff",
+        "link": "https://www.bbc.com/news/articles/crk16j2j1ygo?at_medium=RSS&at_campaign=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "CNN Top Stories",
+        "title": "Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced",
+        "link": "https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html",
+        "bert": {
+            "label": "REAL",
+            "confidence": "70.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "63.76%"
+        },
+        "status": "ACTIVE",
+        "highlights": [
+            "statement",
+            "announced"
+        ]
+    },
+    {
+        "platform": "CNN Top Stories",
+        "title": "Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell",
+        "link": "https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/h_8d51e3ae2714edaa0dace837305d03b8",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "CNN Top Stories",
+        "title": "Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory",
+        "link": "https://www.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "Al Jazeera",
+        "title": "Cuba to pardon more than 2,000 prisoners amid US pressure",
+        "link": "https://www.aljazeera.com/news/2026/4/3/cuba-to-pardon-more-than-2000-prisoners-amid-us-pressure?traffic_source=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "Al Jazeera",
+        "title": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
+        "link": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes?traffic_source=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "67.24%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    },
+    {
+        "platform": "Al Jazeera",
+        "title": "Tiger Woods told police after car crash he was \u2018talking to the president\u2019",
+        "link": "https://www.aljazeera.com/sports/2026/4/3/tiger-woods-told-police-after-car-crash-he-was-talking-to-the-president?traffic_source=rss",
+        "bert": {
+            "label": "REAL",
+            "confidence": "50.00%"
+        },
+        "baseline": {
+            "label": "REAL",
+            "confidence": "63.76%"
+        },
+        "status": "ACTIVE",
+        "highlights": []
+    }
+]

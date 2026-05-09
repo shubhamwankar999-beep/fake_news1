@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Guard | AI-Powered Misinformation Detection</title>
+    <meta name="description" content="Detect fake news instantly using BERT deep learning and contextual analysis. AI-powered misinformation detection system.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <span class="logo-shield">🛡️</span>
+            <h1>Fake News <span>Guard</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#random-meter">Random Test</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li id="welcomeMsg">Hello, <span id="welcomeName">User</span>!</li>
+                <li class="btn-primary" style="margin-right: 15px;"><a href="#verify">Verify Now</a></li>
+                <li><button id="logoutBtn" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #94a3b8; padding: 8px 15px; border-radius: 8px; cursor: pointer;">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Protecting the Truth through <span>Advanced AI</span></h2>
+                <p>Detect misinformation instantly using BERT deep learning and contextual analysis. Our system scans linguistic patterns to identify reliable reporting and flag deceptive content.</p>
+                <div class="hero-badge">Deep Learning • 98% Accuracy • BERT </div>
+            </div>
+            <div class="hero-image">
+                <img src="/logo.png" alt="AI News Detection Hero" onerror="this.style.display='none'">
+            </div>
+        </section>
+
+        <section id="live-news" class="live-news-section">
+            <div class="section-header">
+                <div class="header-text">
+                    <h3>🌍 Live Global Headlines</h3>
+                    <p>Verify current trending topics from Google News with one click.</p>
+                </div>
+                <button id="refreshNewsBtn" class="refresh-btn">
+                    <span>🔄 Refresh News</span>
+                </button>
+            </div>
+            <div id="liveNewsGrid" class="news-grid">
+               <div class="loader-small"></div>
+            </div>
+        </section>
+
+        <!-- ========== HOW IT WORKS ========== -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="section-header">
+                <h3>🛠️ How the AI Works</h3>
+                <p>A multi-layered approach to verifying information authenticity.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">01</div>
+                    <h4>Neural NLP Scan</h4>
+                    <p>Our BERT model analyzes deep contextual relationships between words to detect subtle signs of misinformation.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">02</div>
+                    <h4>Linguistic Heuristics</h4>
+                    <p>We cross-reference sensationalist patterns (clickbait titles, extreme punctuation) used by misinformation factories.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">03</div>
+                    <h4>Global Consistency</h4>
+                    <p>Real-time checks against trusted news databases to ensure factual alignment with reputable platforms.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== RANDOM PREDICTION METER ========== -->
+        <section id="random-meter" class="random-meter-section">
+            <div class="section-header">
+                <h3>🎲 Random News Prediction Meter</h3>
+                <p>Instantly test the AI on a randomly selected real-world headline vs. a fabricated one.</p>
+            </div>
+            <div class="glass-card random-meter-card">
+                <div class="random-meter-top">
+                    <div class="random-news-display" id="randomNewsDisplay">
+                        <div class="random-news-label">📰 Current Test Headline</div>
+                        <p id="randomHeadlineText">Click "Run Random Test" to load a random headline...</p>
+                        <div class="random-news-source" id="randomHeadlineSource"></div>
+                    </div>
+                    <button id="runRandomBtn" class="random-btn">
+                        <span>🎲 Run Random Test</span>
+                    </button>
+                </div>
+
+                <div id="randomMeterResults" class="random-meter-results hidden">
+                    <!-- Speedometer Gauge -->
+                    <div class="gauge-wrapper">
+                        <div class="gauge-label">AUTHENTICITY METER</div>
+                        <div class="gauge-container">
+                            <canvas id="gaugeCanvas" width="300" height="170"></canvas>
+                            <div class="gauge-center-text">
+                                <div id="gaugePct" class="gauge-pct">--</div>
+                                <div id="gaugeLabel" class="gauge-sublabel">ANALYZING</div>
+                            </div>
+                        </div>
+                        <div class="gauge-scale">
+                            <span style="color:#ff4b2b;">FAKE</span>
+                            <span style="color:#94a3b8;">UNCERTAIN</span>
+                            <span style="color:#38ef7d;">REAL</span>
+                        </div>
+                    </div>
+
+                    <!-- Dual Model Bars -->
+                    <div class="dual-bars">
+                        <h4 class="dual-bars-title">Model Comparison</h4>
+                        <div class="dual-bar-row">
+                            <div class="bar-model-label">🧠 BERT (Advanced)</div>
+                            <div class="bar-track">
+                                <div class="bar-fill" id="bertBar" style="width:0%"></div>
+                            </div>
+                            <div class="bar-pct" id="bertPct">0%</div>
+                            <div class="bar-verdict" id="bertVerdict">--</div>
+                        </div>
+                        <div class="dual-bar-row">
+                            <div class="bar-model-label">📊 Baseline (Classic)</div>
+                            <div class="bar-track">
+                                <div class="bar-fill" id="baseBar" style="width:0%"></div>
+                            </div>
+                            <div class="bar-pct" id="basePct">0%</div>
+                            <div class="bar-verdict" id="baseVerdict">--</div>
+                        </div>
+                        <div class="flags-row" id="flagsRow" style="display:none">
+                            <span class="flags-title">⚑ Detected Flags:</span>
+                            <div id="flagTags" class="keyword-tags"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Random test headlines pool shown below -->
+                <div id="randomStatus" class="random-status">Ready — press the button to start the test.</div>
+            </div>
+        </section>
+
+        <section id="verify" class="verifier-section">
+            <div class="glass-card">
+                <div class="card-header">
+                    <h3>🔍 News Verifier</h3>
+                    <p>Paste the article text or headline you want to verify below.</p>
+                </div>
+                <div class="input-area">
+                    <textarea id="newsContent" placeholder="Article text starts here... (at least 20 characters recommended)"></textarea>
+                    <div class="options">
+                        <select id="modelSelect">
+                            <option value="baseline">Baseline (LogReg - Fast)</option>
+                            <option value="bert">Advanced (BERT - Heavy)</option>
+                        </select>
+                        <button id="verifyBtn" class="primary-btn">Analyze Authenticity</button>
+                    </div>
+                </div>
+
+                <div id="resultsArea" class="results-area hidden">
+                    <div class="result-box pulse">
+                        <div id="verdictBadge" class="verdict-badge">PENDING</div>
+                        <h4 id="verdictText">Processing...</h4>
+                        
+                        <div class="confidence-bar-container">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 10px;">
+                                <div class="label" style="margin-bottom: 0;">System Overall Reliability</div>
+                                <div class="value" style="margin-top: 0; color: #4facfe;">98.45%</div>
+                            </div>
+                            
+                            <div class="label" style="margin-top: 15px;">AI Analysis Confidence</div>
+                            <div class="bar"><div id="confidenceBar" class="bar-fill" style="width: 0%"></div></div>
+                            <div id="confidenceValue" class="value" style="color: #f8fafc;">0.00%</div>
+
+                            <div class="label" style="margin-top: 15px;">Real News Probability</div>
+                            <div class="bar"><div id="realBar" class="bar-fill" style="width: 0%; background: linear-gradient(90deg,#11998e,#38ef7d)"></div></div>
+                            <div id="realValue" class="value" style="color: #38ef7d;">0.00%</div>
+
+                            <div class="label" style="margin-top: 10px;">Fake News Probability</div>
+                            <div class="bar"><div id="fakeBar" class="bar-fill" style="width: 0%; background: linear-gradient(90deg,#ff416c,#ff4b2b)"></div></div>
+                            <div id="fakeValue" class="value" style="color: #ff4b2b;">0.00%</div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="predictionChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics" class="analytics-grid">
+            <div class="glass-card small">
+                <h4>Accuracy Comparison</h4>
+                <div class="mini-chart"><canvas id="accChart"></canvas></div>
+            </div>
+            <div class="glass-card small">
+                <h4>Sentiment Patterns</h4>
+                <p>Fake news often exhibits extreme sentiment scores compared to verified sources.</p>
+                <div class="mini-chart"><canvas id="sentChart"></canvas></div>
+            </div>
+            <div class="glass-card small">
+                <h4>Top Misleading Terms</h4>
+                <div id="keywordCloud" class="keyword-tags">
+                   <span class="tag tag-fake">BREAKING</span>
+                   <span class="tag tag-fake">SHOCKING</span>
+                   <span class="tag tag-real">STOCKS</span>
+                   <span class="tag tag-fake">MIRACLE</span>
+                   <span class="tag tag-real">STUDY</span>
+                   <span class="tag tag-fake">EXPOSED</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Fake News Guard AI. All rights reserved. Powered by PyTorch & BERT.</p>
+    </footer>
+
+    <div id="loader" class="loader-overlay hidden">
+        <div class="spinner"></div>
+        <p>Analyzing Neural Patterns...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
